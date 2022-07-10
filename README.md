@@ -8,7 +8,7 @@ Steps to install the app
 2. After Cloning the project we need install the composer using below command
     composer install
 
-3. After composer installing the we need to create .env file in the root directory
+3. After composer installing the we need to create .env file in the root directory or replace the .env.example to .env
 
 4. Once .env file created we need to add Database credentials and application name.
 
