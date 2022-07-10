@@ -1,0 +1,47 @@
+/* General Styles */
+
+html, body, .App {
+  background-color: #20232a;
+}
+
+.dropdown-todo-items-all,
+.dropdown-todo-items-active,
+.dropdown-todo-items-completed {
+  background-color: #36383f;
+}
+
+.todo-items-all li:first-child,
+.todo-items-active li:first-child,
+.todo-items-completed li:first-child {
+  border-top-style: none;
+}
+
+.todo-items-all li:last-child,
+.todo-items-active li:last-child,
+.todo-items-completed li:last-child {
+  border-bottom-right-radius: .25rem !important;
+  border-bottom-left-radius: .25rem !important;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.badge, .btn-info {
+  background-color: #16caf9;
+  color: #20232a;
+}
+
+.btn-info:hover {
+  background-color: #25d3ff;
+  color: #111111;
+}
+
+.fa-check-circle {
+  transition: 300ms;
+}
+
+.fa-check-circle:hover {
+  transition: 300ms;
+  color: #6c757d;
+}
